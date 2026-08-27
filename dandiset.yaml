@@ -3,7 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002778
+  name: ventral pallidum
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -46,22 +49,36 @@ contributor:
   - dcite:Investigation
   - dcite:Methodology
   schemaKey: Person
-- email: mala.ananth@nih.gov
+- affiliation:
+  - identifier: https://ror.org/01cwqze88
+    name: National Institutes of Health
+    schemaKey: Affiliation
+  email: mala.ananth@nih.gov
+  identifier: 0000-0003-1736-2350
   includeInCitation: true
   name: Ananth, Mala
   roleName:
   - dcite:Author
   - dcite:Investigation
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/01cwqze88
+    name: National Institutes of Health
+    schemaKey: Affiliation
   email: niraj.s.desai@gmail.com
+  identifier: 0000-0002-9969-5206
   includeInCitation: true
   name: Desai, Niraj
   roleName:
   - dcite:Author
   - dcite:Investigation
   schemaKey: Person
-- email: lorna.role@nih.gov
+- affiliation:
+  - identifier: https://ror.org/01cwqze88
+    name: National Institutes of Health
+    schemaKey: Affiliation
+  email: lorna.role@nih.gov
+  identifier: 0000-0001-5851-212X
   includeInCitation: true
   name: Role, Lorna
   roleName:
@@ -69,7 +86,12 @@ contributor:
   - dcite:Supervision
   - dcite:Conceptualization
   schemaKey: Person
-- email: david.talmage@nih.gov
+- affiliation:
+  - identifier: https://ror.org/01cwqze88
+    name: National Institutes of Health
+    schemaKey: Affiliation
+  email: david.talmage@nih.gov
+  identifier: 0000-0003-4627-3007
   includeInCitation: true
   name: Talmage, David
   roleName:
@@ -77,26 +99,53 @@ contributor:
   - dcite:Conceptualization
   - dcite:Supervision
   schemaKey: Person
+- identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-07-30T21:29:38.294649+00:00'
 description: The electrophysiological data included in Kim et al., Cell Reports 43(4),
-  114009 (2024).
+  114009 (2024). This dataset contains whole-cell current-clamp recordings (CurrentClampSeries
+  and CurrentClampStimulusSeries, NWB format) from ventral pallidal cholinergic projection
+  neurons in mice, examining how distinct subpopulations of these neurons encode the
+  valence of olfactory (odor) stimuli.
 ethicsApproval: []
 id: DANDI:001544/draft
 identifier: DANDI:001544
 keywords:
-- ventral pallidum, cholinergic, odor
+- ventral pallidum
+- cholinergic
+- odor
+- olfaction
+- valence encoding
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001544/versions/draft/assets/
 name: Distinct subpopulations of ventral pallidal cholinergic projection neurons encode
   valence of olfactory stimuli
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1016/j.celrep.2024.114009
+  name: Distinct subpopulations of ventral pallidal cholinergic projection neurons
+    encode valence of olfactory stimuli
+  relation: dcite:IsDescribedBy
+  repository: Cell Reports
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.celrep.2024.114009
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 studyTarget:
-- The study demonstrates that two distinct populations of ventral pallidal choinergic
+- The study demonstrates that two distinct populations of ventral pallidal cholinergic
   neurons are activated by odors of different valence
 url: https://dandiarchive.org/dandiset/001544/draft
 version: draft
