@@ -32,7 +32,8 @@ assetsSummary:
   - CurrentClampStimulusSeries
 citation: Kim, Ronald; Ananth, Mala; Desai, Niraj; Role, Lorna; Talmage, David (2026)
   Distinct subpopulations of ventral pallidal cholinergic projection neurons encode
-  valence of olfactory stimuli (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001544/draft
+  valence of olfactory stimuli (Version 0.260827.1410) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001544/0.260827.1410
 contributor:
 - email: ronald.kim@nih.gov
   identifier: 0000-0001-7078-0995
@@ -78,19 +79,33 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2025-07-30T21:29:38.294649+00:00'
+datePublished: '2026-08-27T14:10:39.335572+00:00'
 description: The electrophysiological data included in Kim et al., Cell Reports 43(4),
   114009 (2024).
+doi: 10.48324/dandi.001544/0.260827.1410
 ethicsApproval: []
-id: DANDI:001544/draft
+id: DANDI:001544/0.260827.1410
 identifier: DANDI:001544
 keywords:
 - ventral pallidum, cholinergic, odor
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001544/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001544/0.260827.1410/assets.yaml
 name: Distinct subpopulations of ventral pallidal cholinergic projection neurons encode
   valence of olfactory stimuli
+publishedBy:
+  endDate: '2026-08-27T14:10:39.335572+00:00'
+  id: urn:uuid:932dff1c-d89b-4728-8861-48f0c14c173b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-27T14:10:39.335572+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c4b606f4-d3db-486b-9e80-2c86cdd2083e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
@@ -98,6 +113,6 @@ schemaVersion: 0.6.10
 studyTarget:
 - The study demonstrates that two distinct populations of ventral pallidal choinergic
   neurons are activated by odors of different valence
-url: https://dandiarchive.org/dandiset/001544/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001544/0.260827.1410
+version: 0.260827.1410
 wasGeneratedBy: []
